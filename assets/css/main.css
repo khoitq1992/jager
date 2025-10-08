@@ -279,6 +279,7 @@ Music
 }
 
 .hud-background img {
+    width: 100%;
     mix-blend-mode: color-dodge;
 }
 
@@ -414,3 +415,7 @@ Detail
         font-size: 12px;
     }
 }
+
+/* =============
+Detail
+================ */
