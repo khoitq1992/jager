@@ -162,7 +162,7 @@ Banner
 }
 
 @media screen and (max-width: 600px) {
-    .swiper {
+    .banner-section .swiper {
         aspect-ratio: 350/ 193;
     }
 
@@ -268,6 +268,7 @@ Music
 .music-section {
     position: relative;
     padding-top: 170px;
+    margin-bottom: 48px;
 }
 
 .hud-background {
@@ -278,7 +279,7 @@ Music
 }
 
 .hud-background img {
-    zoom: 1.2;
+    mix-blend-mode: color-dodge;
 }
 
 .music-section .container {
@@ -314,13 +315,13 @@ Music
 
 .jager-music-gallery > div:first-child {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 24px;
 }
 
 .jager-music-gallery > div:last-child {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 24px;
 }
 
@@ -358,14 +359,58 @@ Music
     .jager-music-gallery > div:first-child {
         gap: 16px;
         flex-direction: row;
+        grid-template-columns: 1fr 1fr;
     }
     
     .jager-music-gallery > div:last-child {
         gap: 16px;
         flex-direction: row;
+        grid-template-columns: 1fr 1fr;
     }
 
     .jager-music-text {
         font-size: 14px;
+    }
+}
+
+/* =============
+Detail
+================ */
+
+.detail-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+}
+
+.detail-btn {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    padding: 6.5px 11px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    background: white;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.detail img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .detail-title {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .detail-btn {
+        font-size: 12px;
     }
 }
