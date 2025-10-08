@@ -1,0 +1,26 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+* {
+    --primary-color: #092D17;
+    --background-color: #092D17;
+    --secondary-color: #F88C29;
+    --text-color: white;
+
+    --text-regular: 16px;
+    --text-small: 12px;
+    --text-title: 48px;
+    --text-headline: 36px;
+}
+
+body {
+    font-family: Meister, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
