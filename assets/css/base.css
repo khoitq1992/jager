@@ -16,6 +16,8 @@
     --text-small: 12px;
     --text-title: 48px;
     --text-headline: 36px;
+
+    --text-highlight: #F88C29;
 }
 
 body {

@@ -10,6 +10,7 @@ Header
 
 header {
     padding-block: 35px;
+    box-shadow: 0 16px 32px rgba(12, 12, 13, 0.4);
 }
 
 .menu-nav {
@@ -93,6 +94,7 @@ header {
         transition: all 0.3s ease-in-out;
         padding: 24px 20px;
         background: var(--background-color);
+        z-index: 99;
     }
 
     body.menu-open {
@@ -118,5 +120,252 @@ header {
     .custom-logo-link img {
         width: 165px;
         height: auto;
+    }
+}
+
+/* =============
+Banner
+================ */
+.banner-section {
+    padding-block: 48px;
+}
+
+.banner-section .container {
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 44px;
+    left: 35px;
+    z-index: 1;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.banner-text {
+    line-height: 1.1;
+}
+
+.swiper-slide {
+    width: 100%;
+}
+
+.swiper-slide img {
+    height: 100%;
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .swiper {
+        aspect-ratio: 350/ 193;
+    }
+
+    .banner-section {
+        padding-block: 24px;
+    }
+
+    .banner-content {
+        bottom: 6px;
+        left: 9px;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .banner-text {
+        font-size: 12px;
+    }
+}
+
+/* =============
+Popular
+================ */
+
+.popular-section h3 {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.popular-section .event {
+    position: relative;
+    overflow: hidden;
+}
+
+.popular-section .slide-content {
+    height: 100%;
+}
+
+.popular-section .event-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+}
+
+.popular-section .event-location {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.popular-section .event-time {
+    display: flex;
+    gap: 4px;
+    justify-content: flex-end;
+}
+
+.popular-section .event-time > div {
+    background: linear-gradient(94.24deg, #038303 2.38%, #16BF16 97.62%);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.popular-section .event-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 78px;
+    background: linear-gradient(180deg, rgba(39, 213, 156, 0) 0%, #27D59C 63.23%);
+}
+
+.popular-section .swiper-slide {
+    height: 222px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .popular-section .swiper-slide {
+        width: auto;
+        height: 193px;
+    }
+
+    .popular-section h3 {
+        font-size: 32px;
+        line-height: 100%;
+        margin-bottom: 24px;
+    }
+}
+
+/* =============
+Music
+================ */
+
+.music-section {
+    position: relative;
+    padding-top: 170px;
+}
+
+.hud-background {
+    position: absolute;
+    top: -32px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hud-background img {
+    zoom: 1.2;
+}
+
+.music-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.jager-music {
+    background: var(--background-color);
+    border-radius: 24px;
+    padding: 46px;
+}
+
+.jager-music h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jager-music-text {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.jager-music-gallery {
+    display: flex;
+    gap: 24px;
+}
+
+.jager-music-gallery img {
+    width: 100%;
+}
+
+.jager-music-gallery > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.jager-music-gallery > div:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.jager-bg-sp {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .music-section {
+        padding-top: 80px;
+    }
+
+    .jager-music {
+        padding: 40px;
+        gap: 16px;
+    }
+    
+    .jager-music h3 {
+        font-size: 32px;
+    }
+
+    .jager-bg {
+        display: none;
+    }
+
+    .jager-bg-sp {
+        display: block;
+    }
+
+    .jager-music-gallery {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .jager-music-gallery > div:first-child {
+        gap: 16px;
+        flex-direction: row;
+    }
+    
+    .jager-music-gallery > div:last-child {
+        gap: 16px;
+        flex-direction: row;
+    }
+
+    .jager-music-text {
+        font-size: 14px;
     }
 }

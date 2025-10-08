@@ -19,3 +19,20 @@
     flex-wrap: wrap;
 }
 
+/* sp only */
+
+.sp-only {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .sp-only {
+        display: block;
+    }
+}
+
+/* text */
+
+.text-highlight {
+    color: var(--text-highlight);
+}

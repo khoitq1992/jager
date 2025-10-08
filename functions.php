@@ -28,8 +28,15 @@ add_action('after_setup_theme', 'jager_setup');
  * Enqueue Scripts and Styles
  */
 function jager_scripts() {
+
     // Enqueue theme stylesheet
     wp_enqueue_style('jager-style', get_stylesheet_uri(), array(), '1.0.0');
+    
+    // Enqueue Swiper CSS
+    wp_enqueue_style('swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), '11.0.0');
+    
+    // Enqueue Swiper JS
+    wp_enqueue_script('swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), '11.0.0', true);
     
     // Enqueue comment reply script
     if (is_singular() && comments_open() && get_option('thread_comments')) {
