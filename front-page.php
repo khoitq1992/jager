@@ -19,6 +19,7 @@
 
     <?php get_template_part( 'partials/home/page', 'csv' ); ?>
 
+    <?php get_template_part( 'partials/home/page', 'shopping' ); ?>
 </main>
 
 <?php get_footer(); ?>
