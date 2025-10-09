@@ -413,6 +413,11 @@ Detail
     background: white;
     width: fit-content;
     margin-inline: auto;
+    cursor: pointer;
+}
+
+.detail {
+    text-align: center;
 }
 
 .detail img {
