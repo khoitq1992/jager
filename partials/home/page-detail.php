@@ -1,9 +1,9 @@
-<div class="detail-section wrapper">
+<div class="detail-section wrapper" data-aos="fade-up">
     <div class="container">
         <!-- Slider main container -->
-        <div class="swiper detail-slider">
+        <div class="swiper detail-slider" style="overflow: visible !important;">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" style="overflow: visible !important;">
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <div class="slide-content detail">

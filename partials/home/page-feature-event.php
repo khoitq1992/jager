@@ -3,13 +3,17 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hud.png" alt="">
     </div>
     <div class="container feature-event-container">
-        <div class="feature-image">
+        <div class="feature-image" >
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-image.png" alt="">
         </div>
         <div class="feature-logo">
             <div class="feature-logo-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-music-logo.png" alt="">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-music-logo.png" alt="">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-music-logo-sp.png" alt="">
                 <p>B RAY</p>
+            </div>
+            <div class="feature-image-sp">
+                <img  src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-image.png" alt="">
             </div>
             <div class="join-us-button">JOIN US</div>
         </div>

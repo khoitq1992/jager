@@ -1,7 +1,7 @@
 <div class="music-section wrapper" 
     style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hud.png'); background-repeat: repeat;">
     <div class="container">
-        <div class="jager-music">
+        <div class="jager-music" data-aos="fade-up">
             <h3>JÄGER MUSIC</h3>
             <p class="jager-music-text"><span class="text-highlight">Jäger Music</span> is a cultural music project by Jägermeister, designed to transform the<br>
                 brand into an aspirational, bold, and widely recognized icon in the music scene.</p>

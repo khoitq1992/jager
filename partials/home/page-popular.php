@@ -7,13 +7,13 @@ $args = array(
 $event_query = new WP_Query($args);
 ?>
 
-<div class="popular-section wrapper">
+<div id="jager-music" class="popular-section wrapper" data-aos="fade-up">
     <div class="container">
         <h3>POPULAR<br class="sp-only"> THIS WEEK</h3>
         
-        <div class="swiper popular-swiper">
+        <div class="swiper popular-swiper" style="overflow: visible !important;">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" style="overflow: visible !important;">
                 <!-- Slides -->
                 <?php if ($event_query->have_posts()) : ?>
                     <?php while ($event_query->have_posts()) : $event_query->the_post(); ?>

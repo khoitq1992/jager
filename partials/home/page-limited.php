@@ -48,8 +48,7 @@
                     disableOnInteraction: true,
                 },
                 slidesPerView: 4,
-                spaceBetween: 16,
-                centeredSlides: true,
+                spaceBetween: 8,
                 // pagination
                 pagination: {
                     el: '.swiper-pagination',
@@ -58,11 +57,15 @@
                 // Responsive breakpoints
                 breakpoints: {
                     640: {
-                        spaceBetween: 20,
+                        spaceBetween: 8,
                         centeredSlides: false
                     },
                     768: {
-                        spaceBetween: 25,
+                        spaceBetween: 16,
+                        centeredSlides: false
+                    },
+                    960: {
+                        spaceBetween: 24,
                         centeredSlides: false
                     }
                 },

@@ -1,4 +1,4 @@
-<div class="csv-section wrapper">
+<div id="bi-exploration" class="csv-section wrapper">
     <div class="hud-background">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hud.png" alt="">
     </div>
@@ -78,9 +78,14 @@
                 centeredSlides: true,
                 // Responsive breakpoints
                 breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 24,
+                        centeredSlides: false
+                    },
                     1024: {
                         slidesPerView: 3,
-                        spaceBetween: 25,
+                        spaceBetween: 24,
                         centeredSlides: false
                     },
                 },

@@ -21,9 +21,10 @@
     --text-highlight: #F88C29;
 }
 
-body {
+html, body {
     font-family: Meister, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
+    scroll-behavior: smooth;
 }

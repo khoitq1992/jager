@@ -1,4 +1,4 @@
-<div class="perfect-section wrapper">
+<div class="perfect-section wrapper" data-aos="zoom-in-up">
     <div class="container">
         <h3>THE PERFECT ICON</h3>
         <p>B RAY embodies the bold, unapologetic spirit of Jägermeister — raw, real, and always ready to light up the

@@ -11,7 +11,7 @@
         </div>
         <div class="overall">
             <h3>OVERALL</h3>
-            <div class="overall-list">
+            <div class="overall-list" data-aos="fade-up">
                 <!-- Additional required wrapper -->
                 <div class="overall-item overall-item--first" >
                     <img class="overall-thumb" src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-1.png" alt="">
@@ -71,16 +71,17 @@
 
         <div class="campaign">
             <div class="campaign-left">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/campaign-bray.png" alt="">
+                <img class="campaign-bray" data-aos="flip-right" src="<?php echo get_template_directory_uri(); ?>/assets/img/campaign-bray.png" alt="">
+                <img class="campaign-bray-sp" data-aos="flip-right" src="<?php echo get_template_directory_uri(); ?>/assets/img/campaign-bray-sp.png" alt="">
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/campaign-jager-music.png" alt="">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/campaign-gift.png" alt="">
+                    <img data-aos="flip-left" src="<?php echo get_template_directory_uri(); ?>/assets/img/campaign-jager-music.png" alt="">
+                    <img data-aos="flip-left" src="<?php echo get_template_directory_uri(); ?>/assets/img/campaign-gift.png" alt="">
                 </div>
             </div>
             <div class="campaign-right">
                 <h3 class="feature-text">FEATURED CAMPAIGN</h3>
                 <p class="description-text">[DISCRIPTION]</p>
-                <div class="detail-button">DETAILS MORE</div>
+                <div class="detail-button" data-aos="fade-left">DETAILS MORE</div>
             </div>
         </div>
     </div>
