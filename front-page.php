@@ -13,6 +13,10 @@
 
     <?php get_template_part( 'partials/home/page', 'overall' ); ?>
 
+    <?php get_template_part( 'partials/home/page', 'perfect' ); ?>
+
+    <?php get_template_part( 'partials/home/page', 'feature-event' ); ?>
+
 </main>
 
 <?php get_footer(); ?>
