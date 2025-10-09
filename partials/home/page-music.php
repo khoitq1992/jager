@@ -1,7 +1,5 @@
-<div class="music-section wrapper">
-    <div class="hud-background">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hud.png" alt="">
-    </div>
+<div class="music-section wrapper" 
+    style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/hud.png'); background-repeat: repeat;">
     <div class="container">
         <div class="jager-music">
             <h3>JÄGER MUSIC</h3>

@@ -17,6 +17,8 @@
 
     <?php get_template_part( 'partials/home/page', 'feature-event' ); ?>
 
+    <?php get_template_part( 'partials/home/page', 'limited' ); ?>
+
     <?php get_template_part( 'partials/home/page', 'csv' ); ?>
 
     <?php get_template_part( 'partials/home/page', 'shopping' ); ?>
