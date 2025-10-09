@@ -1,4 +1,4 @@
-<div class="limited-section wrapper">
+<div data-aos="fade-right" class="limited-section wrapper">
     <div class="container limited-container">
         <div class="limited-background">
             <img class="hud-background" src="<?php echo get_template_directory_uri(); ?>/assets/img/hud.png" alt="">

@@ -1,4 +1,4 @@
-<div id="bi-exploration" class="csv-section wrapper">
+<div id="csv-program" class="csv-section wrapper">
     <div class="hud-background">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hud.png" alt="">
     </div>
@@ -16,7 +16,7 @@
                             <div class="csv-product-gallery__item"></div>
                             <div class="csv-product-gallery__item"></div>
                         </div>
-                        <div class="csv-product-thumb">
+                        <div data-aos="flip-left" data-aos-duration="800" class="csv-product-thumb">
                             <img style="height: auto;" src="<?php echo get_template_directory_uri(); ?>/assets/img/csv-product-1.png" alt="">
                         </div>
                         <div class="csv-product-info">
@@ -32,7 +32,7 @@
                             <div class="csv-product-gallery__item"></div>
                             <div class="csv-product-gallery__item"></div>
                         </div>
-                        <div class="csv-product-thumb">
+                        <div data-aos="flip-left" data-aos-duration="800" class="csv-product-thumb">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/csv-product-2.png" alt="">
                         </div>
                         <div class="csv-product-info">
@@ -48,7 +48,7 @@
                             <div class="csv-product-gallery__item"></div>
                             <div class="csv-product-gallery__item"></div>
                         </div>
-                        <div class="csv-product-thumb">
+                        <div data-aos="flip-left" data-aos-duration="800" class="csv-product-thumb">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/csv-product-3.png" alt="">
                         </div>
                         <div class="csv-product-info">

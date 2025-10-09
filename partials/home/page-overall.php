@@ -1,4 +1,4 @@
-<div class="overall-section wrapper">
+<div id="bi-exploration" class="overall-section wrapper">
     <div class="hud-background">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hud.png" alt="">
     </div>

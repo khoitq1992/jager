@@ -7,7 +7,7 @@ $args = array(
 $event_query = new WP_Query($args);
 ?>
 
-<div id="jager-music" class="popular-section wrapper" data-aos="fade-up">
+<div class="popular-section wrapper" data-aos="fade-up">
     <div class="container">
         <h3>POPULAR<br class="sp-only"> THIS WEEK</h3>
         

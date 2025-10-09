@@ -4,16 +4,16 @@
     </div>
     <div class="container feature-event-container">
         <div class="feature-image" >
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-image.png" alt="">
+            <img data-aos="flip-right" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-image.png" alt="">
         </div>
         <div class="feature-logo">
             <div class="feature-logo-image">
-                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-music-logo.png" alt="">
-                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-music-logo-sp.png" alt="">
-                <p>B RAY</p>
+                <img data-aos="zoom-in-down" class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-music-logo.png" alt="">
+                <img data-aos="zoom-in-down" class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-music-logo-sp.png" alt="">
+                <p data-aos="zoom-in-up">B RAY</p>
             </div>
             <div class="feature-image-sp">
-                <img  src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-image.png" alt="">
+                <img data-aos="flip-left" src="<?php echo get_template_directory_uri(); ?>/assets/img/feature-event-image.png" alt="">
             </div>
             <div class="join-us-button">JOIN US</div>
         </div>
