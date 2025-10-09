@@ -8,6 +8,11 @@
     <?php get_template_part( 'partials/home/page', 'music' ); ?>
 
     <?php get_template_part( 'partials/home/page', 'detail' ); ?>
+
+    <?php get_template_part( 'partials/home/page', 'video' ); ?>
+
+    <?php get_template_part( 'partials/home/page', 'overall' ); ?>
+
 </main>
 
 <?php get_footer(); ?>
