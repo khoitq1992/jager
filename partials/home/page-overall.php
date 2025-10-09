@@ -6,62 +6,64 @@
         <div class="prost-background">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/prost.png" alt="">
         </div>
+        <div class="prost-background-sp">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/prost-mobile.png" alt="">
+        </div>
         <div class="overall">
             <h3>OVERALL</h3>
-            <!-- Slider main container -->
-            <div class="swiper overall-slider">
+            <div class="overall-list">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class="slide-content overall-item overall-item--first" >
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-1.png" alt="">
-                            <div class="overall-item-content">
-                                <p class="overall-item-title">ICONIC<br> JÄGERMEISTER</p>
-                                <p class="overall-item-text">“Since the 1950s, Jägermeister
-                                has been known for unique
-                                campaigns and experiences.
-                                Discover standout moments
-                                as we explore nightlife, create
-                                art spaces, and celebrate those
-                                who make it all possible. Stay
-                                tuned for more!”
-                                </p>
-                            </div>
-                        </div>
+                <div class="overall-item overall-item--first" >
+                    <img class="overall-thumb" src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-1.png" alt="">
+                    <img class="overall-thumb-sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-1-sp.png" alt="">
+                    <div class="overall-item-content">
+                        <p class="overall-item-title">ICONIC<br> JÄGERMEISTER</p>
+                        <p class="overall-item-text">“Since the 1950s, Jägermeister
+                        has been known for unique
+                        campaigns and experiences.
+                        Discover standout moments
+                        as we explore nightlife, create
+                        art spaces, and celebrate those
+                        who make it all possible. Stay
+                        tuned for more!”
+                        </p>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="slide-content overall-item overall-item--second" >
-                            <div class="gallery">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-21.png" alt="">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-22.png" alt="">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-23.png" alt="">
-                            </div>
-                            <div class="overall-item-content">
-                                <p class="overall-item-title">ICONIC<br> JÄGERMEISTER</p>
-                                <p class="overall-item-text">“Since the 1950s, Jägermeister
-                                has been known for unique
-                                campaigns and experiences.
-                                Discover standout moments
-                                as we explore nightlife, create
-                                art spaces, and celebrate those
-                                who make it all possible. Stay
-                                tuned for more!”
-                                </p>
-                            </div>
-                        </div>
+                </div>
+                <div class="overall-item overall-item--second" >
+                    <div class="gallery">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-21.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-22.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-23.png" alt="">
                     </div>
-                    <div class="swiper-slide">
-                        <div class="slide-content overall-item overall-item--third" >
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-3.png" alt="">
-                            <div class="overall-item-content">
-                                <p class="overall-item-title">BEST<br> NIGHTS</p>
-                                <p class="overall-item-text">The Jägermeister Best Nights series is a signature event that fuses music,
-                                     nightlife, and bold experiences — where people connect over ice-cold shots, 
-                                     dynamic performances, and a vibrant atmosphere.
-                                </p>
-                            </div>
+                    <div class="gallery-sp">
+                        <div>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-21-sp.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-22-sp.png" alt="">
                         </div>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-23-sp.png" alt="">
+                    </div>
+                    <div class="overall-item-content">
+                        <p class="overall-item-title">ICONIC<br> JÄGERMEISTER</p>
+                        <p class="overall-item-text">“Since the 1950s, Jägermeister
+                        has been known for unique
+                        campaigns and experiences.
+                        Discover standout moments
+                        as we explore nightlife, create
+                        art spaces, and celebrate those
+                        who make it all possible. Stay
+                        tuned for more!”
+                        </p>
+                    </div>
+                </div>
+                <div class="overall-item overall-item--third" >
+                    <img class="overall-thumb" src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-3.png" alt="">
+                    <img class="overall-thumb-sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/overall-slide-3-sp.png" alt="">
+                    <div class="overall-item-content">
+                        <p class="overall-item-title">BEST<br> NIGHTS</p>
+                        <p class="overall-item-text">The Jägermeister Best Nights series is a signature event that fuses music,
+                                nightlife, and bold experiences — where people connect over ice-cold shots, 
+                                dynamic performances, and a vibrant atmosphere.
+                        </p>
                     </div>
                 </div>
             </div>
