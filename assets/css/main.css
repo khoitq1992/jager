@@ -388,6 +388,7 @@ Detail
 ================ */
 
 .detail-section {
+    overflow: hidden;
     margin-bottom: 48px;
     margin-top: -50px;
 }
